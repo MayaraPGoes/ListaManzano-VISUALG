@@ -1,19 +1,19 @@
-Algoritmo "Resultado da Diferença"
-// Disciplina   : [Lógica de Programação com JavaScript]
+Algoritmo "Resultado da DiferenÃ§a"
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa
 
-// Descrição   : Ler dois valores numéricos inteiros e apresentar o resultado da
-//               diferença do maior pelo menor valor.
+// DescriÃ§Ã£o   : Ler dois valores numÃ©ricos inteiros e apresentar o resultado da
+//               diferenÃ§a do maior pelo menor valor.
 
-// Autor(a)    : Gyovanna Lima
+// Autor(a)    : Mayara Prado GÃ³es
 // Data atual  : 16/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    A, B, Resultado : real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Olá! Digite dois valores:")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite dois valores:")
    Escreva("1- ")
    Leia(A)
    Escreva("2- ")
@@ -25,6 +25,6 @@ Inicio
       Resultado <- B-A
    fimse
    
-   Escreval("A diferença do maior pelo menor é de",Resultado)
+   Escreval("A diferenÃ§a do maior pelo menor Ã© de",Resultado)
 
 Fimalgoritmo
