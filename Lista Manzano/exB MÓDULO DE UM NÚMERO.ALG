@@ -1,22 +1,22 @@
-Algoritmo "Módulo de um NÚmero"
-// Disciplina   : [Lógica de Programação com JavaScript]
+Algoritmo "MÃ³dulo de um NÃšmero"
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa
 
-// Descrição   : Efetuar a leitura de um valor inteiro positivo
-//               ou negativo e apresentar o número lido como
+// DescriÃ§Ã£o   : Efetuar a leitura de um valor inteiro positivo
+//               ou negativo e apresentar o nÃºmero lido como
 //               sendo um valor positivo, ou seja, o programa
-//               deverá apresentar o módulo de um número
+//               deverÃ¡ apresentar o mÃ³dulo de um nÃºmero
 //               fornecido.
 
-// Autor(a)    : Gyovanna Lima
+// Autor(a)    : Mayara Prado GÃ³es
 // Data atual  : 16/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    A,B: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Digite um número")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite um nÃºmero")
    Leia(A)
    
    se A < 0 entao
@@ -25,6 +25,6 @@ Inicio
       B <- A
    fimse
    
-   Escreval("O módulo do número é: |",A," | =",B)
+   Escreval("O mÃ³dulo do nÃºmero Ã©: |",A," | =",B)
 
 Fimalgoritmo
