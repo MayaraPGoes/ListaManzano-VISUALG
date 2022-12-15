@@ -1,46 +1,46 @@
-Algoritmo "MÉDIA COM EXAME"
-// Disciplina  : [Lógica de Programação com JavaScript]
+Algoritmo "MÃ‰DIA COM EXAME"
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa
 
-// Descrição   : Ler quatro valores referentes a quatro notas
+// DescriÃ§Ã£o   : Ler quatro valores referentes a quatro notas
 //             escolares de um aluno e imprimir uma mensagem
 //             dizendo que o aluno foi aprovado.
-// Nome do Aluno(a): Gyovanna Lima
+// Nome do Aluno(a): Mayara Prado GÃ³es
 // Data atual  : 16/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    A,B,C,D,Exame, Media : real
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Digite suas 4 notas!")
-   Escreva("1º Nota: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite suas 4 notas")
+   Escreva("1Âº Nota: ")
    Leia(A)
-   Escreva("2º Nota: ")
+   Escreva("2Âº Nota: ")
    Leia(B)
-   Escreva("3º Nota: ")
+   Escreva("3Âº Nota: ")
    Leia(C)
-   Escreva("4º Nota: ")
+   Escreva("4Âº Nota: ")
    Leia(D)
 
    Media <- (A+B+C+D)/4
    limpatela
-   Escreval("Média: ",Media)
-   se Media >=7 então
+   Escreval("MÃ©dia: ",Media)
+   se Media >=7 entÃ£o
       Escreval ("Aprovado!")
    senao se Media < 7 entao
-      Escreval("Sua nota está abaixo da média, digite a nota do seu Exame")
+      Escreval("Sua nota estÃ¡ abaixo da mÃ©dia, digite a nota do seu Exame")
       Leia(Exame)
       limpatela
       Media <- (A+B+C+D+Exame)/5
       se Media >=5 entao
          Escreval("Aluno aprovado em exame!")
       senao
-         Escreval("Aluno não foi aprovado!")
+         Escreval("Aluno nÃ£o foi aprovado!")
       fimse
    fimse
-   Escreval("Média Final: ",Media)
+   Escreval("MÃ©dia Final: ",Media)
 
 
 Fimalgoritmo
