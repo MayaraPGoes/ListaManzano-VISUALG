@@ -1,36 +1,36 @@
 Algoritmo "NOTAS"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa
 
-// Descrição   : Ler quatro valores referentes a quatro notas
+// DescriÃ§Ã£o   : Ler quatro valores referentes a quatro notas
 //               escolares de um aluno e imprimir uma mensagem
 //               dizendo que o aluno foi aprovado, se o valor
-//               da média escolar for maior ou igual a 5. Se o
-//               aluno não foi aprovado, indicar uma mensagem
-//               informando esta condição. Apresentar junto das
-//               mensagens o valor da média do aluno para
-//               qualquer condição.
+//               da mÃ©dia escolar for maior ou igual a 5. Se o
+//               aluno nÃ£o foi aprovado, indicar uma mensagem
+//               informando esta condiÃ§Ã£o. Apresentar junto das
+//               mensagens o valor da mÃ©dia do aluno para
+//               qualquer condiÃ§Ã£o.
 
-// Nome do Aluno(a): Gyovanna Lima
+// Nome do Aluno(a): Mayara Prado GÃ³es
 // Data atual  : 16/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    A,B,C,D, Media : real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite o valor de suas 4 notas abaixo")
-   Escreva("1º Nota:")
+   Escreva("1Âº Nota:")
    Leia(A)
-   Escreva("2º Nota:")
+   Escreva("2Âº Nota:")
    Leia(B)
-   Escreva("3º Nota:")
+   Escreva("3Âº Nota:")
    Leia(C)
-   Escreva("4º Nota:")
+   Escreva("4Âº Nota:")
    Leia(D)
    
    Media <- (A+B+C+D)/4
-   Escreval("Média do Aluno",Media)
+   Escreval("MÃ©dia do Aluno",Media)
    se Media >= 5 entao
       Escreval("Aluno foi aprovado!")
    senao
