@@ -1,38 +1,38 @@
 Algoritmo "Ordem Crescente"
-// Disciplina   : [Lógica de Programação com JavaScript]
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa
-// Descrição   : Efetuar a leitura de três valores
-//               variáveis A, B e C) e apresentá-los dispostos em ordem crescente.
-// Autor(a)    : Gyovanna
+// DescriÃ§Ã£o   : Efetuar a leitura de trÃªs valores
+//               variÃ¡veis A, B e C) e apresentÃ¡-los dispostos em ordem crescente.
+// Autor(a)    : Mayara Prado GÃ³es
 // Data atual  : 16/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    A,B,C :real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite 3 valores")
-   Escreva("1º Valor: ")
+   Escreva("1Âº Valor: ")
    Leia(A)
-   Escreva("2º Valor: ")
+   Escreva("2Âº Valor: ")
    Leia(B)
-   Escreva("3º Valor: ")
+   Escreva("3Âº Valor: ")
    Leia(C)
 
    se (A<B) e (B<C) entao
-      Escreval("Sequência:",A,B,C)
-   senão se (A<B) e (B>C)
-      Escreval("Sequência:",A,C,B)
+      Escreval("SequÃªncia:",A,B,C)
+   senÃ£o se (A<B) e (B>C)
+      Escreval("SequÃªncia:",A,C,B)
    fimse
    se (B<A) e (A<C) entao
-      Escreval("Sequência:",B,A,C)
+      Escreval("SequÃªncia:",B,A,C)
    senao
       se (B<A) e (A>C) entao
-         Escreval("Sequência:",B,C,A)
+         Escreval("SequÃªncia:",B,C,A)
       fimse
    fimse
    se (C<A) e (A<B) entao
-      Escreval("Sequência:",C,A,B)
+      Escreval("SequÃªncia:",C,A,B)
    fimse
 
 
